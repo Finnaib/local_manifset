@@ -5,9 +5,9 @@
 <remote name="pre" fetch="https://gitlab.com/jjpprrrr" />
 <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-     <!--Trees-->
+  <!--Trees-->
 
-  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="Finnaib" revision="rise" />
+  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="Finnaib" revision="aosp" />
   
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="Finnaib" revision="aosp" />
            
@@ -15,14 +15,6 @@
 
   <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="Finnaib" revision="main" />
 
-  <!--Hardware-->
-
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Finnaib" revision="main" />
-
-  <!--Toolchain-->
-
-  <project path="prebuilts/clang/host/linux-x86/clang-prelude" name="prelude-clang" remote="pre" revision="master" clone-depth="1" />
-  
   <!-- (Clang)  -->
   
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
