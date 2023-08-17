@@ -2,12 +2,11 @@
 <manifest>
   
 <remote name="Finnaib" fetch="https://github.com/Finnaib" />
-<remote name="pre" fetch="https://gitlab.com/jjpprrrr" />
 <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
      <!--Trees-->
 
-  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="Finnaib" revision="rise" />
+  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="Finnaib" revision="droidx" />
   
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="Finnaib" revision="aosp" />
            
@@ -21,7 +20,7 @@
 
   <!--Toolchain-->
 
-  <project path="prebuilts/clang/host/linux-x86/clang-prelude" name="prelude-clang" remote="pre" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Finnaib" revision="master" clone-depth="1" />
   
   <!-- (Clang)  -->
   
